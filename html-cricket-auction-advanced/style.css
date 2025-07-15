@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background: #eef2f5;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
+.button-group button {
+  width: 45%;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+#playerCard {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f0f0f0;
+  border-radius: 6px;
+}
