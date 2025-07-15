@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Captain Auction Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Captain Login</h2>
+    <input type="text" id="captainName" placeholder="Enter Captain1 or Captain2">
+    <button onclick="loginCaptain()">Login</button>
+    <div id="auctionArea" style="display:none;">
+      <h3>Live Auction</h3>
+      <div id="playerCard"></div>
+      <button onclick="placeBid()">Bid ₹1L+</button>
+      <button onclick="markOut()">OUT</button>
+    </div>
+    <a href="index.html">← Back</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
